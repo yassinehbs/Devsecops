@@ -1,7 +1,7 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>  
+#include <stdbool.h> 
 #define N_MESURE 20
 #define TAILLE_MAX 100 // 
 
@@ -118,7 +118,8 @@ void lecture_fichier3(){
 
 
 }
- int main(int argc, char *argv[])
+ int main()
+//void main()
 {
     lecture_fichier1();
     lecture_fichier2();

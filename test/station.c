@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>  
+#include "station.h"
 #define N_MESURE 20
 #define TAILLE_MAX 100 // 
 
@@ -124,6 +125,7 @@ void lecture_fichier3(){
     lecture_fichier2();
     lecture_fichier3();
 
+    float resultat[N_MESURE];
     
     FILE* fresults = NULL;
     float temp[N_MESURE];
@@ -142,7 +144,7 @@ void lecture_fichier3(){
 
     		    if (nb_valeurs_aberrantes(a,b,c)==0){
     		    	fprintf(fresults, "Aquisition %d --> \t %f\n ",k,(a+b+c)/3 );
-    		    	temp[k]=(a+b+c)/3;
+                    temp[k]=(a+b+c)/3;
     		  	}
         		else if (nb_valeurs_aberrantes(a,b,c)==1){
         		    	if(a/moyenne(c,b)<=0.7 || a/moyenne(c,b)>=1.3){
