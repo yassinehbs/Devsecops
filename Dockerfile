@@ -32,6 +32,6 @@ COPY ./station.h /devsecops
 
 RUN gcc -Wall station.c -o station.o
 #RUN chmod -R 755 station
-#RUN gcc -Wall -L/Cunit/CUnit/Sources.libs -I/Cunit/CUnit/Headers -o station_test station_test.c station.o -lcunit
+RUN gcc -Wall -L/Cunit/CUnit/Sources.libs -I/Cunit/CUnit/Headers -o station_test station_test.c station.o -lcunit
 #CMD ["/bin/bash", "./station"]
 CMD ./station
