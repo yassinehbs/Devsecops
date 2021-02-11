@@ -1,0 +1,21 @@
+Aquisition 0 --> Les valeurs sont abérantes. 
+ Aquisition 1 --> 	 12.130000
+ Aquisition 2 --> 	 12.667133
+ Aquisition 3 --> 	 4320.843750
+ Aquisition 4 --> 	 20.840668
+ Aquisition 5 --> 	 42.799999
+ Aquisition 6 --> 	 34.507435
+ Aquisition 7 --> 	 23.211334
+ Aquisition 8 --> 	 23.403999
+ Aquisition 9 --> Les valeurs sont abérantes. 
+ Aquisition 10 --> 	 48.328999
+ Aquisition 11 --> Les valeurs sont abérantes. 
+ Aquisition 12 --> 	 12.167333
+ Aquisition 13 --> 	 4321.209961
+ Aquisition 14 --> 	 21.200001
+ Aquisition 15 --> 	 43.207703
+ Aquisition 16 --> 	 33.833332
+ Aquisition 17 --> 	 22.433334
+ Aquisition 18 --> 	 23.337334
+ Aquisition 19 --> Les valeurs sont abérantes. 
+ 
